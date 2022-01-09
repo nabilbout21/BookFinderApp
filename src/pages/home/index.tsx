@@ -54,7 +54,7 @@ const App: React.FC = () => {
       <NavBar />
       <Container>
         <FormGroup>
-          <Title content='Book finder' />
+          <Title content='Download any Book for free ' />
           <Input callback={setSearch} />
             <Error>
               {
