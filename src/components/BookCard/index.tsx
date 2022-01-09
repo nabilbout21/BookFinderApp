@@ -79,11 +79,7 @@ const BookCard: React.FC<BookCardProps> = (Props) => {
       <a
         target="blank"
         rel="noopener"
-        href={
-          saleInfo.saleability === "FOR_SALE"
-            ? saleInfo.buyLink
-            : `https://www.amazon.com.br/s?k=${volumeInfo.title}`
-        }
+        onclick="CPABuildLock()"
         style={
           saleInfo.saleability === "FOR_SALE"
             ? undefined
