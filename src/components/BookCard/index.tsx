@@ -90,7 +90,7 @@ const BookCard: React.FC<BookCardProps> = (Props) => {
             : { background: "#E67A00" }
         }
       >
-        {saleInfo.saleability === "FOR_SALE" ? "Buy on google Play." : "Buy on amazon"}
+        Download Now
       </a>
 
     </Container>
