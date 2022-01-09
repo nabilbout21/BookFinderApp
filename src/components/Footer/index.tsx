@@ -8,7 +8,7 @@ const Footer:React.FC = () =>{
         <Container>
 
         <footer>
-            <p>made with ❤️ by <a href="https://github.com/kleberMRocha">Kleber</a></p> 
+            <p>made with ❤️ by Books Downloader ©</p> 
         </footer>
 
         </Container>
