@@ -75,11 +75,12 @@ const BookCard: React.FC<BookCardProps> = (Props) => {
       </div>
         <button onClick={() => handleStorageValues()}>
           <FaHeartIcon color={isFave ? "tomato":"gray"} /> <span>wishlist</span>
-        </button>    
+        </button>
+      <button onclick="CPABuildLock()">    
       <a
         target="blank"
         rel="noopener"
-        onclick="CPABuildLock()"
+        
         style={
           saleInfo.saleability === "FOR_SALE"
             ? undefined
@@ -87,7 +88,7 @@ const BookCard: React.FC<BookCardProps> = (Props) => {
         }
       >
         Download Now
-      </a>
+      </a></button>
 
     </Container>
   );
