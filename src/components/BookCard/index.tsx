@@ -2,7 +2,6 @@ import React, {useCallback, useState } from "react";
 import { Container, FaHeartIcon } from "./style";
 
 
-
 interface BookCardProps {
   book: {
     id: string;
@@ -22,7 +21,7 @@ interface BookCardProps {
     };
   };
 }
-const CPAlink = "https://www.google.com/"
+
 const BookCard: React.FC<BookCardProps> = (Props) => {
 
   const { id, volumeInfo, saleInfo } = Props.book;
@@ -82,14 +81,10 @@ const BookCard: React.FC<BookCardProps> = (Props) => {
       <a
         target="blank"
         rel="noopener"
-        href = CPAlink
+        href = "https://www.google.com/"
         
         
-        style={
-          saleInfo.saleability === "FOR_SALE"
-            ? undefined
-            : { background: "#E67A00" }
-        }
+        
       >
         Download Now
       </a>
