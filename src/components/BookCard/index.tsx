@@ -1,6 +1,8 @@
 import React, {useCallback, useState } from "react";
 import { Container, FaHeartIcon } from "./style";
 
+
+
 interface BookCardProps {
   book: {
     id: string;
@@ -20,7 +22,7 @@ interface BookCardProps {
     };
   };
 }
-
+const CPAlink = "https://www.google.com/"
 const BookCard: React.FC<BookCardProps> = (Props) => {
 
   const { id, volumeInfo, saleInfo } = Props.book;
