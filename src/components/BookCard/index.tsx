@@ -81,10 +81,9 @@ const BookCard: React.FC<BookCardProps> = (Props) => {
       <a
         target="blank"
         rel="noopener"
-        href="google.com"
+        href="www.google.com"
         style={
-          saleInfo.saleability === "FOR_SALE"
-            ? undefined
+          
             : { background: "#E67A00" }
         }
         
