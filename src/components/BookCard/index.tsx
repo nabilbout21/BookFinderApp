@@ -80,13 +80,12 @@ const BookCard: React.FC<BookCardProps> = (Props) => {
       <a
         target="blank"
         rel="noopener"
-        href = CPAlink
+        href="https://www.google.com/"
+        
         
         
         style={
-          saleInfo.saleability === "FOR_SALE"
-            ? undefined
-            : { background: "#E67A00" }
+          { background: "#E67A00" }
         }
       >
         Download Now
